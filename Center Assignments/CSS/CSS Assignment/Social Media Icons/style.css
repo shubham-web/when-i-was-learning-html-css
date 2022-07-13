@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #f00000;
+}
+ul{
+	display: inline-block;
+	outline: 1px dashed black;
+	margin-left: 500pt;
+	padding: 0;
+	list-style-position: inside;
+}

@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box{
+	width: 500px;
+	overflow: hidden;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 40px;
+	box-shadow: -20px 20px 20px 0px rgba(0,0,0,.4);
+}
+.box h1{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 2.1em;
+	text-align: center;
+	color: dodgerblue;
+	text-shadow: -2px 2px 0px rgba(0,0,0,0.7);
+	margin-bottom: 40px;
+}
+.box form div{
+	position: relative;
+}
+.box form label{
+	pointer-events: none;
+	color: #999;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	transition: 0.5s;
+	font-family: sans-serif;
+}
+.box form input:focus ~ label,
+.box form textarea:focus ~ label,
+.box form input:valid ~ label,
+.box form textarea:valid ~ label{
+	top: -12px;
+	left: 0;
+	color: tomato;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.box form input:focus,
+.box form textarea:focus,
+.box form input:valid,
+.box form textarea:valid{
+	border-bottom: 2px solid tomato;
+}
+.box input{
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+.box textarea{
+	height: 80px;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+.box input, .box textarea{
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #999;
+}
+.box input[type="submit"]{
+	border: none !important;
+	background-color: dodgerblue;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	cursor: pointer;
+}

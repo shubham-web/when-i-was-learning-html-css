@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+*{
+	margin: 0;
+	padding: 0;
+}
+*::selection{
+	color: dodgerblue;
+	background: white;
+}
+body{
+	background: #e6ecf0;
+	font-family: 'Titillium Web', sans-serif;
+}
+header{
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 0 5px #262626;
+}
+i{
+	box-sizing: border-box;
+	color: dodgerblue;
+	font-size: 1.4em !important;
+	line-height: 2.4;
+}
+.width90{
+	overflow: hidden;
+	width: 60%;
+	line-height: 2.4;
+	margin: 0 auto;
+}
+.headlink{
+	padding: 10px 20px;
+	background: none;
+	border: none;
+	font-weight: 800;
+	color: rgba(0,0,0,.5);
+	float: left;
+	height: auto;
+}
+.headlink:hover{
+	color: dodgerblue;
+	border-bottom: 2px solid dodgerblue;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.section{
+	padding: 10px 100px;
+	margin-top: 15px;
+	background: #fff;
+	box-sizing: border-box;
+	box-shadow: 0 0 2px #262626;
+	border-radius: 3px;
+}
+.section input[type="text"],input[type="password"],input[type="submit"]
+{
+	display: block;
+}
+.section input[type="text"],input[type="password"]{
+	padding: 10px 10px;
+	margin: 15px 0px;
+	border: none;
+	border: 1px solid #00000050;
+	border-radius: 5px;
+	width: 280px;
+	font-size: 1.1em;
+}
+input[type="submit"]{
+	color: #fff;
+	font-weight: bold;
+	background: dodgerblue;
+	border: none;
+	border-radius: 15px;
+	padding: 6px 15px;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	background: #006dbf;
+}
+select{
+	border: none;
+	width: 100px;
+	font-family: sans-serif;
+}
+select:focus{
+	outline: none;
+}

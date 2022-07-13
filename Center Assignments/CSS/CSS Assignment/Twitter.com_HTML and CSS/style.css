@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: white;
+}
+.width50{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 50%;
+	height: 532px !important;
+	overflow: hidden;
+	background: #fff;
+	margin: 0px -2px;
+}
+
+/*Left Section css*/
+.left{
+	background: #1da1f2;
+	background-image: url('bg_twitter.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 200px auto;
+}
+.left ul{
+	padding: 125px 155px;
+	list-style-type: none;
+}
+.left ul li{
+	margin: 40px auto;
+}
+.left .leftlist{
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 10px;
+	line-height: 2;
+
+}
+.left .listicons{
+	color: white;
+	font-size: 30px;
+}
+/*Rigth Section css*/
+.right{
+	height: 580px;
+	padding: 100px 143px;
+}
+
+.right .fa-twitter{
+	color: #1da1f2;
+	font-size: 45px;
+}
+.right #loginbtn{
+	background: #fff;
+	border: none;
+	padding: 16px;
+	border-radius: 100px;
+	border: 1px solid #1da1f2;
+	color: #1da1f2;
+	float: right;
+	clear: both;
+}
+.right #loginbtn:hover{
+	background: #eaf5fd;
+}
+.right h1{
+	font-weight: 700;
+	color: #262626;
+	font-family: sans-serif;
+	margin-top: 30px;
+}
+.right h2{
+	font-weight: 600;
+	padding-top: 50px;
+	color: #262626;
+	font-family: sans-serif;
+}
+.right .longbtn{
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+	padding: 8px 0px;
+	border: none;
+	border-radius: 100px;
+	border: 1px solid #1da1f2;
+}
+.right .su{
+	color: white;
+	background: #1da1f2;
+}
+.right .su:hover{
+	background: #006dbf;
+}
+.right .li{
+	color: #1da1f2;
+	background: white;
+}
+.right .li:hover{
+	background: #eaf5fd;
+}
+button{
+	cursor: pointer;
+}
+/*Info section's css*/
+.info{
+	margin-top: -4px;
+	height: 60px;
+	background: #66757f;
+}
+.info .info_center{
+	width: 90%;
+	margin: 0px auto;
+	line-height: 4;
+}
+.info .info_center #info_txt{
+	font-family: helvetica,sans-serif;
+	font-size: 16px;
+	color: white;
+	font-weight: 500;
+}
+.info .info_center #info_txt a{
+	color: white
+}
+.info .info_center #gotit_btn{
+	float: right;
+	clear: both;
+	background: transparent;
+	border:none;
+	color: white;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 100px;
+	padding: 10px 20px;
+	margin-top: 11px;
+	vertical-align: middle;
+}
+/*footer's css*/
+footer{
+	height: 43px;
+	background: #fff;
+	border-top: 1px solid #00000080;
+	line-height: 2.7;
+	padding: 0 100px;
+}
+footer .footerlinks{
+	text-decoration: none;
+	color: #000;
+	opacity: 0.4;
+	font-size: 14px;
+	margin: 0 4px;
+	font-family: sans-serif;
+}
+

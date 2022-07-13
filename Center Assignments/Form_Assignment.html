@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		td{
+			font-family: sans-serif;
+		}
+		h2{
+			color: blue;
+			font-family: sans-serif;
+		}
+		#_1{
+			color: #fff;
+			font-family: sans-serif;
+			font-size: 20px;
+		}
+		#_2{
+			color: red;
+		}
+		#btn{
+			width: 80%;
+		}
+	</style>
+	<title>Form</title>
+</head>
+<body>
+	<h2 align="center">Application for Eligibility Certificate</h2>
+<form action="" method="post">
+	<table border="0" align="center" width="80%" bgcolor="#f4f8fb" cellpadding="5" cellspacing="2">
+		<!-- 1 -->
+		<tr>
+			<td colspan="4" bgcolor="#448CCB" id="_1">
+				Personal Detail
+			</td>
+		</tr>
+
+		<!-- 2 -->
+		<tr>
+			<td colspan="4" id="_2">
+				All fields are mandatory(*)
+			</td>
+			
+		</tr>
+
+		<!-- 3 -->
+		<tr>
+			<td width="20%">
+				Name *
+			</td>
+			<td width="20%">
+				<input type="text" name="name" />
+			</td>
+			<td width="20%">
+				Father's Name *
+			</td>
+			<td width="20%">
+				<input type="text" name="fathername">
+			</td>
+		</tr>
+
+		<!-- 4 -->
+		<tr>
+			<td>
+			Mother's Name*
+			</td>
+			<td>
+				<input type="text" name="mothername" />
+			</td>
+			<td>Date of Birth*</td>
+			<td>
+				<input type="text" name="DOB" />
+			</td>
+		</tr>
+
+		<!-- 5 -->
+		<tr>
+			<td>
+				Category*
+			</td>
+			<td>
+				<select name="cast" style="width: 150px;">
+					<option>--Select Cast--</option>
+					<option>OBC</option>
+					<option>GEN</option>
+					<option>SC</option>
+					<option>ST</option>
+				</select>
+			</td>
+			<td>
+				Mobile *
+			</td>
+			<td>
+				<input type="text" name="mob" maxlength="10" />
+			</td>
+		</tr>
+
+		<!-- 6 -->
+		<tr>
+			<td>
+				Current Address*
+			</td>
+			<td colspan="3">
+				<!-- inner table -->
+				<table border="0" width="90%" cellspacing="5">
+					<!-- 1 -->
+					<tr>
+						<td width="25%">
+							House No./Village*
+						</td>
+						<td width="25%">
+							<input type="text" name="add_1" />
+						</td>
+						<td width="25%">
+							Colony/Post*
+						</td>
+						<td width="25%">
+							<input type="text" name="add_2" />
+						</td>
+					</tr>
+
+					<!-- 2 -->
+					<tr>
+						<td>
+							City/Tehsil*
+						</td>
+						<td>
+							<input type="text" name="add_3" />
+						</td>
+						<td>
+							State*
+						</td>
+						<td>
+							<input type="text" name="add_4" />
+						</td>
+					</tr>
+
+					<!-- 3 -->
+					<tr>
+						<td>
+							District*
+						</td>
+						<td>
+							<input type="text" name="add_5" />
+						</td>
+						<td>
+							Pincode*
+						</td>
+						<td>
+							<input type="text" name="add_6" maxlength="6" />
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<!-- Table 2 -->
+		<table border="0" align="center" width="80%" bgcolor="#f4f8fb" cellpadding="5" cellspacing="2">
+		<!-- 1 -->
+		<tr>
+			<td colspan="4" bgcolor="#448CCB" id="_1">		
+				Previous Qualification Detail
+			</td>
+		</tr>
+
+		<!-- 2 -->
+		<tr>
+			<td>
+				Name of Qualified Exam*
+			</td>
+			<td>
+				<input type="text" name="exm" />
+			</td>
+			<td>
+				Year of Last Examination*
+			</td>
+			<td>
+				<select name="year" style="width: 150px">
+					<option>--Select Year--</option>
+					<option>2000</option>
+					<option>2001</option>
+					<option>2002</option>
+					<option>2003</option>
+					<option>2004</option>
+					<option>2005</option>
+					<option>2006</option>
+					<option>2007</option>
+					<option>2008</option>
+					<option>2009</option>
+					<option>2010</option>
+					<option>2011</option>
+				</select>
+			</td>			
+		</tr>
+
+		<!-- 3 -->
+		<tr>
+			<td width="20%">
+				Roll Number*
+			</td>
+			<td width="20%">
+				<input type="Number" name="Roll" />
+			</td>
+			<td width="20%">
+				Enrollment Number*
+			</td>
+			<td width="20%">
+				<input type="Number" name="enrl">
+			</td>
+		</tr>
+
+		<!-- 4 -->
+		<tr>
+			<td>
+				University / Board *
+			</td>
+			<td>
+				<select name="brd">
+			        <option selected="" value="0">--Select--</option> 
+			        <option value="MPBSE">MPBSE</option>
+			        <option value="CBSE">CBSE</option> 
+			        <option value="OTHERBOARD">OTHER BOARD</option>
+			        <option value="INMPUNIV">UNIVERSITY IN SIDE MP</option> 
+			        <option value="OUTMPUNIV">UNIVERSITY OUT SIDE MP</option>
+			        <option value="SAGARUNI">SAGAR UNIVERSITY(Center)</option>
+     			</select>
+			</td>
+			<td>
+				Migration No.(If Applicable)
+			</td>
+			<td>
+				<input type="text" name="mgn" />
+			</td>
+		</tr>
+
+		<!-- 5 -->
+		<tr>
+			<td colspan="4">
+				Notice: I promise that I am not persuing any examination from this university, nor I had any previous record of mischief during any of the previous examinations conducted by this university.
+			</td>
+		</tr>
+	</table>
+
+	<!-- Table 3 -->
+		<table border="0" align="center" width="80%" bgcolor="#f4f8fb" cellpadding="5" cellspacing="2">
+		<!-- 1 -->
+		<tr>
+			<td colspan="4" bgcolor="#448CCB" id="_1">		
+				For Eligibility
+			</td>
+		</tr>
+
+		<!-- 2 -->
+		<tr>
+			<td>
+				Examination Center/Institute/University*
+			</td>
+			<td colspan="3">
+				<select name="em_1" style="width: 80%;">
+					<option value="--Select--">--Select--</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+				</select>
+			</td>
+		</tr>
+
+		<!-- 3 -->
+		<tr>
+			<td width="20%">
+				Course Name*
+			</td>
+			<td width="20%">
+				<select name="crs">
+					
+				</select>
+			</td>
+			<td width="20%">
+					Branch Name *
+			</td>
+			<td width="20%">
+				<select name="brn">
+					
+				</select>
+			</td>
+		</tr>
+
+		<!-- 4 -->
+		<tr>
+			<td>
+				Admission Reqired as *
+			</td>
+			<td>
+				<select name="brrnr">
+			        <option value="0">Select Branch Mode</option> 
+			        <option value="Regualar">Regular</option>
+			        <option value="Private">Private</option>
+			    </select>
+			</td>
+			<td>
+				Session *
+			</td>
+			<td>
+				<select name="brnr">
+			        <option value="0">--Select--</option> 
+			        <option value="1">2000-01</option>
+			        <option value="2">2000-01</option>
+			        <option value="3">2000-01</option>
+			        <option value="4">2000-01</option>
+			    </select>
+			</td>
+		</tr>
+
+		<!-- 5 -->
+		<tr>
+			<td colspan="4">
+				
+					<fieldset>
+						<legend>
+						Please Tick IF Any Attachments Provided By You*
+						</legend>
+						<table border="0" width="100%">
+							<tr>
+								<td >
+									<input type="checkbox" name="">
+									<label>PREVIOUS EXAM MARKSHEET</label>
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				Please Attach Scan Marksheet in(.jpg/.gif format and size&lt; 200 KB). To see an Example <a href="#">Click here.</a>
+			</td>
+			<td>
+				<input type="file" name="file">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<input type="checkbox" name="checkbox" />
+				 I hereby certify that all the information given above is correct to my present knowledge.
+			</td>
+		</tr>
+	</table>
+	<center>
+	<div id="btn">
+		<input type="submit" name="sbmt" value="Submit" />
+		<input type="submit" name="back" value="Back">
+	</div>
+	</center>
+</form>
+</body>
+</html>	

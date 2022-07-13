@@ -1,0 +1,313 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Montserrat:700');
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	background: #fff;
+}
+#top{
+	position: fixed;
+	bottom: 4%;
+	right: 2%;
+	background: rgba(0,0,0,.5);
+	border-radius: 5px;
+}
+#top i{
+	font-size: 20px;
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+}
+h1,h2,h3,h4,h5,h6,li{
+	font-family: Montserrat, Arial, sans-serif;
+}
+p{
+	font-family: Comofortaa,sans-serif;
+}
+header{
+	background: #fff;
+	height: 70px;
+}
+.width90{
+	position: relative;
+	top: 0%;
+	display: inline-block;
+	width: 90%;
+	margin: 0 5%;
+	box-sizing: border-box;
+	padding: 23px;
+}
+.width90 h1{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.width90 h1 a{
+	text-decoration: none;
+	color: black;
+}
+.width90 #center_menu{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 32%;
+}
+.width90 #center_menu li{
+	display: inline;
+	font-size: 13px;
+	margin: 0 8px;
+	font-weight: 400 !important;
+	cursor: pointer;
+	color: #00000080;
+	text-transform: uppercase;
+}
+.width90 #center_menu li:hover{
+	color: #000;
+}
+.width90 #right_side{
+	display: inline-block;
+	float: right;
+	clear: both;
+	position: absolute;
+	right: 20px;
+}
+.width90 #right_side input[type="text"]{
+	border: none;
+	padding: 6px 10px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	background: transparent;
+}
+.width90 #right_side input[type="text"]:focus{
+	outline: none;
+}
+.width90 #right_side #badge{
+	background: #262626;
+	padding: 0px 5px 2px;
+	border-radius: 50%;
+	color: #fff;
+	position: absolute;
+	top: -10px;
+
+}
+.width90 #right_side i{
+	margin: 1px 10px;
+}
+/*Section one CSS*/
+.slider{
+	background-image: url(img/slider_bg.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+}
+.slider .text_container{
+	display: inline-block;
+	width: 540px;
+	height: 349px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color: rgba(255,255,255,.9);
+	margin-left: 10%;
+	margin-top: 14%;
+}
+.slider .text_container .price{
+	display: block;
+	color: #00000087;
+	font-family: serif;
+	letter-spacing: 4px;
+	margin-bottom: 20px;
+}
+.slider .text_container .item_name{
+	font-weight: 500 !important;
+	margin-bottom: 20px;
+}
+.slider .text_container p{
+
+	line-height: 27px;
+	display: block;
+	font-size: 16px;
+	color: #00000084;
+	margin-bottom: 20px;
+}
+.slider .text_container .purchase_btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #262626;
+	padding: 14px 30px;
+	border: 2px solid #262626;
+	font-family: Montserrat, Arial, sans-serif;
+	font-weight: bold;
+}
+.slider .text_container .purchase_btn:hover{
+	transition: .4s;
+	color: white;
+	background-color: #262626;
+}
+
+/*Second Section's CSS*/
+.three_containers{
+	width: 100%;
+	height: 700px;
+	background-color: #0000000d;
+}
+.three_containers .second90{
+	overflow: hidden;
+	padding: 112px 10px;
+	vertical-align: middle;
+
+}
+.three_containers .width33{
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+.three_containers .width33 i{
+	display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    color: #fff;
+    background-color: #262626;
+    padding: 22px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.three_containers .width33 i:hover{
+	transition: .4s;
+	color: #262626;
+	background: transparent;
+}
+.three_containers .width33 h2{
+	font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.three_containers .width33 p{
+	color: #828282;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 40px;
+	line-height: 2em;
+	margin-bottom: 30px;
+}
+.three_containers .width33 .learn-more_btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #262626;
+	background-color: transparent;
+	border: 2px solid #262626;
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-family: Montserrat, Arial, sans-serif;
+	padding: 10px 20px;
+}
+.learn-more_btn:hover{
+	transition: 0.3s;
+	color: #fff !important;
+	background-color: #262626 !important;
+}
+
+/*Third Section (Product SIX DIVs) CSS*/
+.products{
+	height: 700px;
+	background-color: #fff;
+}
+.products .third90{
+	background-color: transparent;
+	height: 700px;
+	padding: 105px 30px;
+}
+
+/*SIX DIVs For Product*/
+.products h3{
+	font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 1px;
+}
+.products h4{
+	letter-spacing: 2px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.products p{
+	box-sizing: border-box;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 0 87px;
+	font-size: 18px;
+    line-height: 1.5;
+    color: #828282;
+}
+.products .product_box{
+	display: inline-block;
+	width: 360px;
+	height: 428px;
+	background-color: #fff;
+	margin: 1px 10px 70px;
+	
+
+}
+.products .product_img{
+	vertical-align: top;
+	box-sizing: border-box;
+	border: 1px inset #ccc;
+	width: 100%;
+	height: 80%;
+	background-size: cover;
+	z-index: 2;
+}
+.products .prdt_1{
+	background: url('https://cdn.alza.co.uk/Foto/f9_rect/MI/MI600c4.jpg');
+}
+.products .prdt_2{
+	background: url('https://cdn.alza.cz/Foto/f9_rect/SH/SHE500a2a.jpg');
+}
+.products .prdt_3{
+	background: url('https://making-time.com/wp-content/uploads/2017/11/JustPlay_MickeyRoadsterRacers_RacingAdventuresMickey.jpg');
+}
+.products .prdt_4{
+	background: url('http://img2.tbcdn.cn/tfscom/i4/TB14MeWSpXXXXaNXpXXXXXXXXXX_!!0-item_pic.jpg');
+}
+.products .prdt_5{
+	background: url('https://cdn.alza.cz/Foto/f9_rect/MK/MKTSKXXNA748r.jpg');
+}
+.products .prdt_6{
+	background: url('https://cdn.eglobalcentral.eu/images/magictoolbox_cache/8c95d73fec130487c102a73bf1ab42ce/1/5/15071/thumb360x360/3714125798/canon-kit-18-135mm-is-stm-lens-digital-slr-cameras.png');
+}
+
+.products .product_img:hover{
+	transition: 0.2s;
+	box-shadow: 1px 3px 30px #00000050;
+}
+.products .product_img:hover ~ .product_nameandprice{
+	color: tomato;
+}
+.products .product_nameandprice{
+	vertical-align: bottom;
+	box-sizing: border-box;
+	width: 100%;
+	height: 20%;
+	background-color: transparent;
+	color: #828282;
+}
+.products .product_nameandprice .product_name{
+	display: block;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-family: Montserrat, Arial, sans-serif;
+	text-align: center;
+	padding: 20px 4px;
+	font-size: 14px;
+}
+.products .product_nameandprice .product_price{
+	display: block;
+	text-align: center;
+	font-family: Comfortaa, sans-serif;
+}

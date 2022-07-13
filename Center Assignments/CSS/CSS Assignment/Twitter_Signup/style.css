@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: white;
+	overflow-x: hidden;
+}
+
+/*Header CSS*/
+header{
+	position: sticky;
+	top: 0%;
+	height: 46px;
+	background: #1da1f2;
+	border-bottom: 1px solid #000;
+}
+header .center_icon{
+	display: inline;
+	margin: 0px 50%;
+	line-height: 3.6;
+}
+header .center_icon i{
+	font-size: 1.875em;
+	color: #fff;
+}
+
+/*Sign up form's CSS*/
+.signup_form{
+	display: inline-block;
+	width: 100%;
+	padding: 0 35%;
+	margin: 100px 0;
+}
+.signup_form form h1{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 27px;
+	line-height: 34px;
+	font-weight: bold;
+	margin-bottom: 24px;
+	padding-left: 10px;
+}
+.signup_form form input[type="text"],[type="email"],[type="password"]{
+	display: block;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 12px;
+	width: 372px;
+	border:none;
+	border-radius: 5px;
+	border: 1px solid #e6ecf0;
+	margin-bottom: 24px;
+}
+.signup_form form small{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	width: 80%;
+}
+.signup_form form input[type="submit"]{
+	display: block;
+	width: 392px;
+	margin: 25px 0px;
+	background: #1da1f2;
+	border-radius: 100px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Noto Sans', sans-serif;
+	padding: 18px 0px;
+	border: 1px solid #f6f6f6;
+	font-size: 20px;
+	cursor: pointer;
+}
+.signup_form form input[type="submit"]:hover{
+	background: #006dbf;
+}
+a{
+	text-decoration: none;
+	color: #1da1f2;
+	font-family: 'Noto Sans', sans-serif;
+}
